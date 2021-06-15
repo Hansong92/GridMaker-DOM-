@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <section class="tabs">
+            <button class="tabs-item add-row">Add Row(s)</button>
+            <button class="tabs-item add-column">Add Column(s)</button>
+            <button class="tabs-item remove-row">Remove Row(s)</button>
+            <button class="tabs-item remove-column">Remove Column(s)</button>
+            <select class="tabs-item" id="colorSelection">
+                <option value="grey">Select Color</option>
+            </select>
+            <div class="color-wrapper"></div>
+            <button class="tabs-item fill-all-uncolored-cells">Fill All Uncolored Cells</button>
+            <button class="tabs-item fill-all-cells">Fill All Cells</button>
+            <button class="tabs-item clear-all-cells">Clear All Cells</button>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="title">Grid Maker</h1>
+            <section class="grid-wrapper">
+                <table id="grid">
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/colors.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
